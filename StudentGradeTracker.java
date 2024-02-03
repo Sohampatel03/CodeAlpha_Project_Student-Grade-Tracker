@@ -30,6 +30,7 @@ class StudentGradeTracker {
         }
         double average = (double) sum / students;
 
+        //output
         System.out.println("Grades entered: " + grades);
         System.out.println("Average Grade: " + average);
         System.out.println("Highest Grade: " + highest);
